@@ -1,6 +1,6 @@
 [package]
-name = "lmdb-rs"
-version = "0.7.6"
+name = "ord-lmdb-rs"
+version = "0.7.7"
 authors = ["Valerii Hiora <valerii.hiora@gmail.com>"]
 license = "MIT"
 description = "LMDB bindings"
@@ -14,9 +14,9 @@ exclude = [
         "up_doc.sh",
 ]
 
-[dependencies.liblmdb-sys]
-path = "liblmdb-sys"
-version = "0.2.2"
+[dependencies.ord-liblmdb-sys]
+path = "ord-liblmdb-sys"
+version = "0.2.3"
 
 [dependencies]
 log = "0.3"
